@@ -13,3 +13,15 @@
  *= require_tree .
  *= require_self
  */
+
+.form-input{
+  font-size: 1.5rem;
+}
+
+.button-submit{
+  margin: 0;
+}
+
+.button-submit, .form-input{
+  height: 45px;
+}

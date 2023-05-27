@@ -1,0 +1,17 @@
+
+<div>
+  <div class="border mb-3 p-2 rounded">
+    <h3 class="py-3">
+      <%= @question %>
+    </h3>
+    <p class="text-muted">- You</p>
+  </div>
+  <div class="border mb-3 p-2 rounded">
+    <h3 class="<%= @happy ? 'p-3 bg-primary text-white': 'p-3 bg-warning text-white'%>">
+      <%= @answer %>
+    </h3>
+    <p class="text-muted">- Coach</p>
+  </div>
+</div>
+
+<%= link_to "Ask another question", "/ask", class: "btn btn-primary text-light" %>
